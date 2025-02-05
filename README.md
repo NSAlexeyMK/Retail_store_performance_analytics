@@ -20,5 +20,9 @@ Description: List of the current promotions in the company at the time the repor
 
 Description: List of the current promo types in the company at the time of reporting.  
   2. Data Processing and Workflow The ELT process is fully automated using Apache Airflow, ensuring seamless data extraction, transformation, and loading.
+
+  
   3. Data Storage Data showcases are loaded into Clickhouse for efficient querying and analysis.
+
+
   4. Reporting Reports are generated using Apache Superset, providing insights and visualizations based on the integrated data.
