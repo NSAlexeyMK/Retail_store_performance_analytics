@@ -5,7 +5,7 @@ Project Name: Data Integration and Showcase Building Overview This project aims 
 
 Technical Components
 
-Data Sources Stores (stores)
+  1. Data Sources Stores (stores)
 Description: Text table for stores. Data Loading Method: Loaded from a file via gpfdist from the local machine. Traffic (traffic)
 
 Description: Information about customers entering the store, sent to the data store once per hour from metering systems. Data Loading Method: Loaded from an external PostgreSQL database via PXF. Checks (bills_head, bills_item)
@@ -18,4 +18,7 @@ Description: List of promotions in the company that are current at the time the 
 
 Description: List of the current promotions in the company at the time the report is generated. Promotion Types (promo_types)
 
-Description: List of the current promo types in the company at the time of reporting. 2. Data Processing and Workflow The ELT process is fully automated using Apache Airflow, ensuring seamless data extraction, transformation, and loading. 3. Data Storage Data showcases are loaded into Clickhouse for efficient querying and analysis. 4. Reporting Reports are generated using Apache Superset, providing insights and visualizations based on the integrated data.
+Description: List of the current promo types in the company at the time of reporting.  
+  2. Data Processing and Workflow The ELT process is fully automated using Apache Airflow, ensuring seamless data extraction, transformation, and loading.
+  3. Data Storage Data showcases are loaded into Clickhouse for efficient querying and analysis.
+  4. Reporting Reports are generated using Apache Superset, providing insights and visualizations based on the integrated data.
