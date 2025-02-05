@@ -19,6 +19,7 @@ Description: List of promotions in the company that are current at the time the 
 Description: List of the current promotions in the company at the time the report is generated. Promotion Types (promo_types)
 
 Description: List of the current promo types in the company at the time of reporting.  
+
   2. Data Processing and Workflow The ELT process is fully automated using Apache Airflow, ensuring seamless data extraction, transformation, and loading.
 
   
